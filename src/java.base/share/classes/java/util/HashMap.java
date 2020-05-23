@@ -610,6 +610,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      *         previously associated {@code null} with {@code key}.)
      */
     public V put(K key, V value) {
+        //设置map的key value
         return putVal(hash(key), key, value, false, true);
     }
 
